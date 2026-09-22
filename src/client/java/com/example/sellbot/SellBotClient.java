@@ -9,10 +9,9 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.Identifier;
-import net.minecraft.world.inventory.ClickType;
 import net.minecraft.world.inventory.ContainerInput;
 
-public final class SellBotClient implements ClientModInitializer {
+public final class SellBotClient {
     private static final int SELL_BUTTON_SLOT = 44;
     private static final int PLAYER_INVENTORY_START = 45;
     private static final int PLAYER_INVENTORY_END = 80;
